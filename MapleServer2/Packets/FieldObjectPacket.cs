@@ -156,7 +156,7 @@ public static class FieldObjectPacket
         npcBuffer.WriteShort(1); // counter (increments every packet)
         // There can be more to this packet, probably dependent on Flag.
 
-        PacketWriter pWriter = PacketWriter.Of(SendOp.NpcControl);
+        PacketWriter pWriter = PacketWriter.Of(SendOp.NPCControl);
         pWriter.WriteShort(1); // Segments
         pWriter.WriteShort((short) npcBuffer.Length);
         pWriter.WriteBytes(npcBuffer.ToArray());
@@ -182,7 +182,7 @@ public static class FieldObjectPacket
         npcBuffer.WriteShort(1); // counter (increments every packet)
         // There can be more to this packet, probably dependent on Flag.
 
-        PacketWriter pWriter = PacketWriter.Of(SendOp.NpcControl);
+        PacketWriter pWriter = PacketWriter.Of(SendOp.NPCControl);
         pWriter.WriteShort(1); // Segments
         pWriter.WriteShort((short) npcBuffer.Length);
         pWriter.WriteBytes(npcBuffer.ToArray());

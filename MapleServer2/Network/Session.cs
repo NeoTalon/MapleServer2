@@ -330,7 +330,7 @@ public abstract class Session : IDisposable
             case SendOp.ItemInventory:
             case SendOp.FieldAddNPC:
             case SendOp.FieldPortal:
-            case SendOp.NpcControl:
+            case SendOp.NPCControl:
             case SendOp.RideSync:
             case SendOp.FieldObject:
             case SendOp.FieldAddPlayer:

@@ -83,7 +83,7 @@ public enum SendOp : ushort
     FieldAddNPC = 0x0056,
     FieldRemoveNPC = 0x0057,
     FieldDeadNPC = 0x0058,
-    NpcControl = 0x0059,
+    NPCControl = 0x0059,
     InteractNPC = 0x005A,
     FieldAddPet = 0x005B,
     FieldRemovePet = 0x005C,
